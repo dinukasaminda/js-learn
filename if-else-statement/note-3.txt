@@ -1,0 +1,55 @@
+ඔත්තේ සංඛ්‍යා "Odd number"= සංඛ්‍යාව  2න් බෙදූ විට එකක් ඉතුරුවෙ
+ Example 1,3,5,7,9,....
+
+
+
+ඉරට්ටේ සංඛ්‍යා  "Even Number"= සංඛ්‍යව් 2n බෙදූ විට ඉතුරුව 0 වේ
+Example 2,4,6,8,....
+
+
+දෙනලද x සංඛ්‍යාව ඔත්තේ ද ඉරට්ටේද යන්න ප්‍රින්ට් කිරිම සදහා javascript  progrmme ලියන්න 
+Write a JavaScript programe for determine given number is even or odd .
+
+Javascript මගින් සංඛ්‍යාවක් තවත්  සංඛ්‍යාව්කින් බේදූ විට ලැබෙන ඉතිරිය සෙවීමට මොඩ්යුලෝ(modulo) operator eka බාවිතා කරයි, 
+
+let reminderValue = 10%4;
+console.log(reminderValue);
+
+Output:
+2
+
+Reason: 10,4n bedu vita 2k ituru wee
+
+-------------------------------------------------------
+Example 2
+
+let x =5;
+let remV = x%2;
+
+Output:
+1
+
+x ,2න් බෙදූවිට ඉතිරිය සෙවීම, x yanu variable ekaki, x hi den agaya 5 nisa x ,2n beduu vita itiriya yanu 5, 2n bedu vita itiriyam wee
+
+
+mema theory eka bawithaa kara dena lada x hi agaya odd nam "odd number" lesath , even nam "even number" lesath print karanna (ප්‍රින්ට් කිරීම යනු console log kirimai)
+hint:Mee sadaha obata if else statement eka bawitha kala heka
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+dena lada sankyawa x,  3 ho 5 unoth "Good" lesath , nathnam "Bad" lesath print karanna
+
+let x = 3;
+
+if( x == 3 || x == 5 ){
+	console.log("Good");
+}else{
+	console.log("Bad"):
+}
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+let x = 3;
+let y = 4;
+
+x ha y ge agayanwla ekathuwa 9 nam , "sum qual to 9" lesath, ekatuwa wenath sankyawak nam "Sum not equal to 9 " lesath print karanna 
